@@ -58,27 +58,27 @@ public class NavigationMain extends AppCompatActivity
             case R.id.nav_menu2:
                 Intent myIntent = new Intent(NavigationMain.this, ProfileActivity.class);
                 startActivity(myIntent);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                //overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 break;
             case R.id.nav_menu3:
                 Intent myIntent1 = new Intent(NavigationMain.this, SettingsActivity.class);
                 startActivity(myIntent1);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                //overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 break;
             case R.id.nav_menu4:
                 Intent myIntent2 = new Intent(NavigationMain.this, FeedbackActivity.class);
                 startActivity(myIntent2);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                //overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 break;
             case R.id.nav_menu5:
                 Intent myIntent3 = new Intent(NavigationMain.this, AboutusActivity.class);
                 startActivity(myIntent3);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                //overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 break;
             case R.id.nav_menu6:
                 Intent myIntent4 = new Intent(NavigationMain.this, SupportActivity.class);
                 startActivity(myIntent4);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                //overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 break;
         }
 
